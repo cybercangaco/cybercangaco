@@ -1,26 +1,25 @@
 {
   "name": "cybercangaco",
   "version": "1.0.0",
-  "description": "Cyber Cangaço, digital security research and development group made by cabras da peste",
-  "author": "",
+  "description": "Cyber Cangaço, Digital security research and development group made by cabras da peste",
+  "author": "Gerardo Junior <me@gerardo-junior.com>",
   "private": true,
-  "dependencies": {
-    "nuxtent": "latest",
-    "nuxt": "^1.0.0-rc11",
-    "@nuxtjs/axios": "latest"
-  },
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
-    "lint": "eslint --fix --ext .js,.vue --ignore-path .gitignore .",
-    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
     "precommit": "npm run lint"
   },
+  "dependencies": {
+    "nuxt": "^2.0.0"
+  },
   "devDependencies": {
-    "babel-eslint": "^8.2.2",
+    "babel-eslint": "^10.0.1",
     "eslint": "^4.19.1",
-    "eslint-plugin-vue": "^4.4.0"
+    "eslint-friendly-formatter": "^4.0.1",
+    "eslint-loader": "^2.1.1",
+    "eslint-plugin-vue": "^4.0.0"
   }
 }

@@ -1,13 +1,10 @@
 # cybercangaco
 
-> Cyber Cangaço, digital security research and development group made by cabras da peste
+> Cyber Cangaço, Digital security research and development group made by cabras da peste
 
 ## Build Setup
 
 ``` bash
-# enter directory Nuxt source directory
-$ cd site
-
 # install dependencies
 $ npm install # Or yarn install
 
@@ -22,4 +19,5 @@ $ npm start
 $ npm run generate
 ```
 
-For detailed explanation on how things work, checkout the [nuxt.js](https://github.com/nuxt/nuxt.js) and [nuxt-content](https://github.com/nuxt-community/nuxtent) docs.
+For detailed explanation on how things work, checkout the [Nuxt.js docs](https://github.com/nuxt/nuxt.js).
+
