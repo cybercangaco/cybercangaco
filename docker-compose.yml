@@ -1,0 +1,23 @@
+version: "3.4"
+services:
+  webserver:
+    image: nginx:1.12.2-alpine
+    restart: on-failure
+    volumes:
+      - type: bind
+        source: ./dist
+        target: /usr/share/nginx/html
+    ports:
+      - 8080:80
+
+  nuxt:
+    image: cybercangaco/client.environment:stable
+    build: .docker
+    restart: on-failure
+    volumes:
+      - type: bind
+        source: ./
+        target: /usr/share/src
+    ports:
+      - 3000:3000
+    command: dev
