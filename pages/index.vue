@@ -18,7 +18,7 @@ import AppLogo from '~/components/AppLogo.vue'
 export default {
   head () {
     return {
-      title: 'Seja invocado! - Cyber Cangaço',
+      title: 'Digital security research and development group made by cabras da peste - Cyber Cangaço',
       meta: [
         { hid: 'description', name: 'description', content: 'About our company Nuxt.js ' }
       ]
