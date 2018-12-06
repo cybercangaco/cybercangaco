@@ -3,7 +3,6 @@ services:
   nuxt:
     image: cybercangaco/client.environment:stable
     build: .docker
-    restart: on-failure
     volumes:
       - type: bind
         source: ./
