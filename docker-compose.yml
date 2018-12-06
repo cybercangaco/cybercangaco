@@ -10,4 +10,5 @@ services:
         target: /usr/share/src
     ports:
       - 3000:3000
+      # - 9229:9229 # node debug
     command: dev
